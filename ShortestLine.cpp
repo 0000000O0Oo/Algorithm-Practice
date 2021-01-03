@@ -1,12 +1,13 @@
 //This one comes from the book algorithmic thinking, and has been taken from a programming tournament. 
 
-PROBLEM
+//PROBLEM-->
 //There are n lines of people waiting for food, and the number of people waiting
 //in each line is known. Then, each of m new people will arrive, and they
 //will join the shortest line (the line with the fewest number of people). Our
 //task is to determine the number of people in each line that each of the m
 //people joins.
 
+//SOLUTION
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
