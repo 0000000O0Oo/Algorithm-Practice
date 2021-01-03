@@ -30,7 +30,7 @@ void solve(int lines[], int n, int m) {
 	for (i = 0; i < m; i++) {
 		shortest = shortest_line_index(lines, n);
 		printf("Shortest Line %d : %d\n", i + 1, lines[shortest]);
-		lines[shortest]++; // Incrementation
+		lines[shortest]++; //We add the new people to the shortest line. Incrementation of the shortest line
 	}
 }
 
